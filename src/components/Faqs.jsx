@@ -14,44 +14,44 @@ const Faqs = () => {
         <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-5" data-aos='zoom-in'data-aos-duration='3000' data-aos-delay='1000'>FAQS</h2>
         <div className='d-flex justify-content-center'>
                     <Accordion defaultActiveKey="0" className='width-967'>
-                        <Accordion.Item eventKey="0" className='w-100 bg-black'>
-                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold'>Arcu faucibus diam feugiat magna etiam.</Accordion.Header>
-                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat'>
+                        <Accordion.Item eventKey="0" className='w-100 bg-transparent'>
+                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold bg-transparent'>Arcu faucibus diam feugiat magna etiam.</Accordion.Header>
+                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat bg-transparent'>
                               Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. <span className='d-block'>libero lacinia accumsan amet. Quam quam egestas feugiat amet. Ut nibh vulputate.</span>
                             </Accordion.Body>
                             
                         </Accordion.Item>
-                        <Accordion.Item eventKey="1" className='w-100 bg-black'>
-                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold'>Fermentum tortor aenean.</Accordion.Header>
-                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat'>
+                        <Accordion.Item eventKey="1" className='w-100 bg-transparent'>
+                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold bg-transparent'>Fermentum tortor aenean.</Accordion.Header>
+                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat bg-transparent'>
                               Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. <span className='d-block'>libero lacinia accumsan amet. Quam quam egestas feugiat amet. Ut nibh vulputate.</span>
                             </Accordion.Body>
                             
                         </Accordion.Item>
-                        <Accordion.Item eventKey="2" className='w-100 bg-black'>
-                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold'>Dictum est amet sollicitudin.</Accordion.Header>
-                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat'>
+                        <Accordion.Item eventKey="2" className='w-100 bg-transparent'>
+                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold bg-transparent'>Dictum est amet sollicitudin.</Accordion.Header>
+                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat bg-transparent'>
                               Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. <span className='d-block'>libero lacinia accumsan amet. Quam quam egestas feugiat amet. Ut nibh vulputate.</span>
                             </Accordion.Body>
                             
                         </Accordion.Item>
-                        <Accordion.Item eventKey="3" className='w-100 bg-black'>
-                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold'>Sed vulputate mi faucibus.</Accordion.Header>
-                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat'>
+                        <Accordion.Item eventKey="3" className='w-100 bg-transparent'>
+                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold bg-transparent'>Sed vulputate mi faucibus.</Accordion.Header>
+                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat bg-transparent'>
                               Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. <span className='d-block'>libero lacinia accumsan amet. Quam quam egestas feugiat amet. Ut nibh vulputate.</span>
                             </Accordion.Body>
                             
                         </Accordion.Item>
-                        <Accordion.Item eventKey="4" className='w-100 bg-black '>
-                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold'>Commodo placerat ultricies. </Accordion.Header>
-                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat'>
+                        <Accordion.Item eventKey="4" className='w-100 bg-transparent '>
+                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold bg-transparent'>Commodo placerat ultricies. </Accordion.Header>
+                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat bg-transparent'>
                               Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. <span className='d-block'>libero lacinia accumsan amet. Quam quam egestas feugiat amet. Ut nibh vulputate.</span>
                             </Accordion.Body>
                             
                         </Accordion.Item>
-                        <Accordion.Item eventKey="5" className='w-100 bg-black '>
-                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold'>Nunc amet cursus morbi donec. </Accordion.Header>
-                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat'>
+                        <Accordion.Item eventKey="5" className='w-100 bg-transparent '>
+                            <Accordion.Header className='ff_montserrat fs_2xmd text_ffffff mb-0 fw-bold bg-transparent'>Nunc amet cursus morbi donec. </Accordion.Header>
+                            <Accordion.Body className='text_ffffff fs_xsm fw-normal ff_montserrat bg-transparent'>
                               Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. <span className='d-block'>libero lacinia accumsan amet. Quam quam egestas feugiat amet. Ut nibh vulputate.</span>
                             </Accordion.Body>
                             
@@ -60,12 +60,12 @@ const Faqs = () => {
                 </div>
             </Container>
             <div className='d-flex justify-content-center align-items-center gap-4 margin-top pt-5 mb-3'data-aos='fade-down'data-aos-duration='3000' data-aos-delay='1000'>
-                <img src={frame1} alt="#" />
-                <img src={frame2} alt="#" />
-                <img src={frame3} alt="#" />
-                <img src={frame4} alt="#" />
-                <img src={frame5} alt="#" />
-                <img src={frame6} alt="#" />
+               <a href="http://twitter"><img src={frame1} alt="#" /></a>
+                <a href="http://twitter"><img src={frame2} alt="#" /></a>
+                <a href="http://diamond"><img src={frame3} alt="#" /></a>
+                <a href="http://discord"><img src={frame4} alt="#" /></a>
+               <a href="https://medium.com/"><img src={frame5} alt="#" /></a>
+               <a href="http://telegram"><img src={frame6} alt="#" /></a>
             </div>
             <div className='pb-5'><hr className='hr_line' /></div>
             

@@ -98,13 +98,16 @@
   box-shadow: 0px 9px 29px 0px rgba(253, 218, 96, 0.50);
   border: none;
   transition: all 500ms linear;
-  z-index: 2;
+  z-index: 1;
 }
+
+
 
 .BUTTON-Y:hover {
   background-color: #FFF;
 }
-.abs-dompkong{
+
+.abs-dompkong {
   position: relative;
 }
 
@@ -115,7 +118,7 @@
   height: 5px;
   background: #F1C85D;
   bottom: 0%;
-  left:0%;
+  left: 0%;
 }
 
 
@@ -216,14 +219,9 @@
   width: 896px;
 }
 
-/* .img_ub
-  top: 8%;
-  left: 0%;
-} */
-
 .accordion-button:not(.collapsed) {
   color: white !important;
-  background-color: black !important;
+  background-color: transparent !important;
   box-shadow: none !important;
   padding: 25px 0px 6px 0px !important;
   border-bottom: none !important;
@@ -240,7 +238,7 @@
   font-size: 20px !important;
   font-weight: 500 !important;
   font-family: 'montserrat' !important;
-  background-color: black !important;
+  background-color: transparent !important;
   border-bottom: 2px solid #F1C85D !important;
 }
 
@@ -254,7 +252,7 @@
   font-weight: 400 !important;
   font-family: 'montserrat' !important;
   font-size: 16px !important;
-  background-color: black !important;
+  background-color: transparent !important;
   border-bottom: 2px solid #F1C85D !important;
 
 }
