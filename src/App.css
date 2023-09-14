@@ -188,7 +188,7 @@
 
 .yellow_box {
   border-radius: 4px;
-  width: 494px;
+  max-width: 494px;
   height: 61px;
   display: flex;
   align-items: center;
