@@ -22,16 +22,21 @@ const About = () => {
         <Row className='pb-5'>
             <h2 className='text-center text_ffffff ff_Azo_Sans_Uber fw-normal fs_xl py-5'data-aos='fade-down'data-aos-duration='2000'>Utilities</h2>
             <Col lg={4} data-aos='fade-right'data-aos-duration='2000'>
-                <div className='Box_DDC p-3 mt-4'>
-                <div className='d-flex justify-content-center'>
+                <div className='Box_DDC p-3 mt-4 position-relative overflow-hidden'>
+                        <div className='light-Moon'></div>
+                        <div className='light-Moon-abs'></div>
+                   <div className='d-flex justify-content-center'>
                      <a href="#"><Document/></a>
-                </div>
+                    </div>
                     <h2 className='text-cenetr h2_DDC'>Document</h2>
                     <p className='p_ddc'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
                 </div>
             </Col>
             <Col lg={4} data-aos='flip-right'data-aos-duration='3000'>
-            <div className='Box_DDC p-3 mt-4'>
+            <div className='Box_DDC p-3 mt-4 position-relative overflow-hidden'>
+                        <div className='light-Moon'></div>
+                        <div className='light-Moon-abs'></div>
+
                 <div className='d-flex justify-content-center '>
                      <a href="#"><Deal/></a>
                 </div>
@@ -40,7 +45,9 @@ const About = () => {
             </div>
             </Col>
             <Col lg={4} data-aos='fade-left'data-aos-duration='2000'>
-            <div className='Box_DDC p-3 mt-4'>
+            <div className='Box_DDC p-3 mt-4 position-relative overflow-hidden'>
+                        <div className='light-Moon'></div>
+                        <div className='light-Moon-abs'></div>
                 <div className='d-flex justify-content-center '>
                      <a href="#"><Contract/></a>
                 </div>

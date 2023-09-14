@@ -15,9 +15,10 @@ const Roadmap = () => {
                 <img className='position-abs d-none d-xl-block'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000' src={RM_LINE} alt="#" />
             </Col>
             <Col xl={8} className='mt-5'>
-                <div className='d-flex align-items-center mb-4 pb-2 position-relative Roadmap'>
+                <div className='d-flex align-items-center mb-4 pb-2 position-relative Roadmap flex-sm-row flex-column'>
                     <span className='yellow-circle abs-Y1'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'></span>
                     <a className='position-abs1 d-none d-xl-block' href="#"><Roadmap1/></a>
+                    
                     <div className='ms-0 ms-xl-4 ps-0 ps-xl-3'><h2 className='Box_RM'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'>20%</h2></div>
                    <div className='ps-5'data-aos='fade-left'data-aos-duration='2000'data-aos-delay='2000'>
                     <h2 className='text_ffffff fw-normal ff_Azo_Sans_Uber fs_xmd'>Phase 1</h2>
@@ -25,7 +26,7 @@ const Roadmap = () => {
                     </div>
                 </div>
 
-                <div className='d-flex align-items-center mb-4 pb-2 position-relative Roadmap'>
+                <div className='d-flex align-items-center mb-4 pb-2 position-relative  flex-sm-row flex-column'>
                 <span className='yellow-circle abs-Y2'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'></span>
                   <a className='position-abs2 d-none d-xl-block' href="#"><Roadmap2/></a>
                     <div className='ps-0 ps-xl-5 ms-xl-4 ms-0'><h2 className='Box_RM ms-0 ms-xl-2'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'>40%</h2></div>
@@ -35,7 +36,7 @@ const Roadmap = () => {
                   </div>
                  </div>
 
-                 <div className='d-flex align-items-center mb-4 pb-2 position-relative Roadmap'>
+                 <div className='d-flex align-items-center mb-4 pb-2 position-relative  flex-sm-row flex-column'>
                  <span className='yellow-circle abs-Y3'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'></span>
                    <a className='position-abs3 d-none d-xl-block' href="#"><Roadmap3/></a>
                     <div className='ps-0 ps-xl-5 ms-xl-5 ms-0'><h2 className='Box_RM ms-xl-5 ms-0'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'>60%</h2></div>
@@ -45,7 +46,7 @@ const Roadmap = () => {
                  </div>
                  </div>
 
-                 <div className='d-flex align-items-center mb-4 pb-2 position-relative Roadmap'>
+                 <div className='d-flex align-items-center mb-4 pb-2 position-relative  flex-sm-row flex-column'>
                  <span className='yellow-circle abs-Y4'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'></span>
                     <a className='position-abs4 d-none d-xl-block' href="#"><Roadmap4/></a>
                     <div className='ps-xl-5 ps-0 ms-xl-4 ms-0'><h2 className='Box_RM ms-0 ms-xl-0'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'>80%</h2></div>
@@ -55,7 +56,7 @@ const Roadmap = () => {
                  </div>
                  </div>
 
-                 <div className='d-flex align-items-center mb-4 pb-2 position-relative Roadmap'>
+                 <div className='d-flex align-items-center mb-4 pb-2 position-relative  flex-sm-row flex-column'>
                  <span className='yellow-circle abs-Y5'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'></span>
                  <a className='position-abs5 d-none d-xl-block' href="#"><Roadmap5/></a>
                     <div className='ms-xl-4 ms-0 ps-xl-3 ps-0'><h2 className='Box_RM'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'>100%</h2></div>
