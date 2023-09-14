@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Bottle from '../assets/img/png/DompBottle.png'
 import Gilas from '../assets/img/png/Dompgillas.png'
-import counting from '../assets/img/png/counting.png'
 import kingkongs from '../assets/img/png/real_kongs.png'
 import hugh from '../assets/img/png/Hugh.png'
 import rambo from '../assets/img/png/Rambo.png'
@@ -17,6 +16,17 @@ import ellipse from '../assets/img/png/Ellipse.png'
 import ellipse_l from '../assets/img/png/Ellipse_L.png'
 
 const TheKong = () => {
+  const [plus, setPlus] = useState(0);
+    function incriment() {
+        setPlus(plus + 1)
+    }
+    function decrement() {
+        if (plus > 0) {
+            setPlus(plus - 1)
+        } else {
+            setPlus(plus)
+        }
+    }
   return (
    <section className='bg-black'>
      <section className="bg_black overflow-x-hidden py-5 mb-5">
@@ -153,9 +163,14 @@ const TheKong = () => {
                 </div>
 
 
-               <img className='w-100' src={counting} alt="#" />
+               {/* <img className='w-100' src={counting} alt="#" /> */}
+                <div className='d-flex align-items-center justify-content-'>
+                  <button onClick={decrement} className='button_sub me-2'>-</button>
+                  <button className='button_zero me-2'>0{plus}</button>
+                  <button onClick={incriment} className='button_sub'>+</button>
+                </div>
                <div className='my-4'>
-               <div className='yellow_box text-center fw-normal fs_md ff_Azo_Sans_Uber py-2'>MINT NOW</div>
+               <div className='yellow_box fw-normal fs_md ff_Azo_Sans_Uber '>MINT NOW</div>
                </div>
             </Col>
         </Row>

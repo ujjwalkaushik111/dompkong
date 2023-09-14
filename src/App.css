@@ -180,10 +180,19 @@
   margin-bottom: 20px;
 }
 
+.buller-y{
+  filter: drop-shadow(0 0 0.3rem #f1c85d);
+}
+
 /* THe kong */
 
 .yellow_box {
   border-radius: 4px;
+  width: 494px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #FDDA60;
   box-shadow: 0px 4px 15px 0px rgba(253, 218, 96, 0.50);
 }
@@ -243,8 +252,7 @@
 }
 
 .accordion-button::after {
-  width: 25px !important;
-  height: 25px !important;
+  background-position: center !important;
 }
 
 .accordion-body {
@@ -286,6 +294,32 @@
 
 /* THE KONGS */
 
+.button_sub {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  width: 75px;
+  height: 65px;
+  border-radius: 4px;
+  background: #FFF;
+  border: none;
+}
+
+.button_zero {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  width: 320px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid #FFF;
+}
 
 .py-17 {
   padding-top: 17px;
