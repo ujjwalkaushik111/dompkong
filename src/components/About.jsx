@@ -1,6 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import About_img from "../assets/img/png/About_img.png"
+// import About_img from "../assets/img/png/About_img.png"
+import car from "../assets/img/png/CARS.png"
+import watch from "../assets/img/png/WATCHES.png"
+import boat from "../assets/img/png/BOATS.png"
+import yellow_E from "../assets/img/png/Ellipse444.png"
 import {Document, Deal , Contract} from './Icon'
 
 
@@ -8,15 +12,29 @@ import {Document, Deal , Contract} from './Icon'
 const About = () => {
   return (
    <section className='bg-black pb-5'>
-    <Container className='pt-2'>
-        <Row className='align-items-center'>
+    <Container className=' pt-5'>
+        <Row className='align-items-center my-5 py-5'>
             <Col lg={6} data-aos='fade-right'data-aos-duration='2000'>
               <h2 className='text_ffffff ff_Azo_Sans_Uber fw-normal fs_xl'>About </h2>
               <p className='text_ffffff fs_xsm fw-normal ff_montserrat'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
             </Col>
-            <Col  lg={6} data-aos='fade-left'data-aos-duration='2000'>
-                <img className='w-100' src={About_img} alt="#" />
-            
+            <Col  lg={6} data-aos='fade-left position-relativ'data-aos-duration='2000'>
+                <div><img className='position-abs44 w-100' src={yellow_E} alt="#" /></div>
+            <div id="slideshow" className='position-relative'>
+                            <div class="entire-content">
+                                <div class="content-carrousel">
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={boat} alt='boat' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={watch} alt='watch' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={car} alt='car' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={boat} alt='boat' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={watch} alt='watch' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={car} alt='car' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={boat} alt='boat' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={watch} alt='watch' /></figure>
+                                    <figure class="shadow img_border"><img className='width_sm_100' src={car} alt='car' /></figure>
+                                </div>
+                            </div>
+                        </div>
             </Col>
         </Row>
         <Row className='pb-5'>

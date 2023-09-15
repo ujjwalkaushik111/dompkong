@@ -60,12 +60,12 @@ const Faqs = () => {
                 </div>
             </Container>
             <div className='d-flex justify-content-center align-items-center gap-4 margin-top pt-5 mb-3'data-aos='fade-down'data-aos-duration='3000' data-aos-delay='1000'>
-               <a href="http://twitter"><img src={frame1} alt="#" /></a>
-                <a href="http://twitter"><img src={frame2} alt="#" /></a>
-                <a href="http://diamond"><img src={frame3} alt="#" /></a>
-                <a href="http://discord"><img src={frame4} alt="#" /></a>
-               <a href="https://medium.com/"><img src={frame5} alt="#" /></a>
-               <a href="http://telegram"><img src={frame6} alt="#" /></a>
+               <a href="http://twitter"><img className='link' src={frame1} alt="#" /></a>
+                <a href="http://twitter"><img className='link' src={frame2} alt="#" /></a>
+                <a href="http://diamond"><img className='link' src={frame3} alt="#" /></a>
+                <a href="http://discord"><img className='link' src={frame4} alt="#" /></a>
+               <a href="https://medium.com/"><img className='link' src={frame5} alt="#" /></a>
+               <a href="http://telegram"><img className='link' src={frame6} alt="#" /></a>
             </div>
             <div className='pb-5'><hr className='hr_line' /></div>
             

@@ -13,18 +13,18 @@ import Albert_hero from '../assets/img/png/Albert_hero.png'
 
 const Navbar = () => {
   return (
-    <section className='Hero_bg overflow-hidden py-0 py-xl-5'>
+    <section className='Hero_bg overflow-hidden py-0 pb-xl-5'>
         <Container className='position-relative z-1'>
           <div className='d-flex justify-content-end pt-4'>
             <button className='BUTTON-Y'data-aos='fade-left'data-aos-duration='2000'data-aos-delay='3000'>cONNECT wALLET</button>
           </div>
           <div className='d-flex justify-content-center align-items-center gap-4 pt-2'data-aos='fade-right'data-aos-duration='2000'data-aos-delay='3000'>
-            <a href="http://Twitter.com"><img src={Twitter} alt="#" /></a>
-           <a href="http://Twitter.com"> <img src={Ship} alt="#" /></a>
-           <a href="http://Twitter.com"> <img src={Diamond} alt="#" /></a>
-           <a href="http://discord.com"> <img src={Discord} alt="#" /></a>
-           <a href="http://Twitter.com"> <img src={Medium} alt="#" /></a>
-            <a href="http://telegram.com"><img src={Telegram} alt="#" /></a>
+            <a href="http://Twitter.com"><img className='link' src={Twitter} alt="#" /></a>
+           <a href="http://Twitter.com"> <img className='link' src={Ship} alt="#" /></a>
+           <a href="http://Twitter.com"> <img className='link' src={Diamond} alt="#" /></a>
+           <a href="http://discord.com"> <img className='link' src={Discord} alt="#" /></a>
+           <a href="http://Twitter.com"> <img className='link' src={Medium} alt="#" /></a>
+            <a href="http://telegram.com"><img className='link' src={Telegram} alt="#" /></a>
           </div>
           <div className='mt-5 position-relative z-1'>
             <div className='' data-aos='fade-down' data-aos-duration='2000'data-aos-delay="3000">

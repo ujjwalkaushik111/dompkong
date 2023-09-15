@@ -8,29 +8,86 @@ import line from "../assets/img/png/line_P.png";
 import img_part from "../assets/img/png/boy1.png";
 import img_part2 from "../assets/img/png/boy2.png";
 import img_part3 from "../assets/img/png/boy3.png";
-import inst from "../assets/img/png/bxl_instagram.png";
-import twitter from "../assets/img/png/twitter-fill.png";
+import inst from "../assets/img/svg/bxl_instagram-alt.svg";
+import twitter from "../assets/img/svg/icons_twitter-fill.svg";
+import Slider from "react-slick";
 
 const Partners = () => {
+   // slick-sliderstart
+   const SliderFour = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 0,
+    speed: 3000,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    cssEase: "linear",
+
+    responsive: [
+      {
+        breakpoint: 1170,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 780,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+    ],
+  };
+  // End slick-slider
   return (
     <section className="bg-black py-5">
       <Container>
-        <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-5 mb-5" data-aos='zoom-in'data-aos-duration='3000'>PARTNERS</h2>
-        <div className="d-flex align-items-center justify-content-between overflow-x-scroll" data-aos='flip-right'data-aos-duration='3000' data-aos-delay='1000'>
-        
+        <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-5 mb-3" data-aos='zoom-in'data-aos-duration='3000'>PARTNERS</h2>
+        <Slider {...SliderFour}>
+          <div className="d-flex justify-content-center mt-5" >
           <img src={img1} alt="#" />
+          </div>
+          <div className="d-flex justify-content-center">
           <img src={line} alt="#" />
-        
+          </div>
+          
+           <div  className="d-flex justify-content-center">
           <img src={img2} alt="#" />
+          </div>
+           <div className="d-flex justify-content-center">
           <img src={line} alt="#" />
-        
+          </div>
+          
+          <div className="d-flex justify-content-center mt-4" >
           <img src={img3} alt="#" />
+          </div>
+          <div className="d-flex justify-content-center">
           <img src={line} alt="#" />
-        
+          </div>
+          <div className="d-flex justify-content-center mt-4">
           <img src={img4} alt="#" />
-        </div>
+          </div>
+          <div className="d-flex justify-content-center">
+          <img src={line} alt="#" />
+          </div>
+          </Slider>
       </Container>
-      <Container>
+      <Container className="mt-5 pt-5">
         <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-5 mt-4" data-aos='fade-down'data-aos-duration='3000'>Meet The Team</h2>
         <div className="line_Y"></div>
         <Row className="mb-5">

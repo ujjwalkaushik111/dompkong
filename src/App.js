@@ -12,6 +12,8 @@ import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Topbutton from './components/Topbutton';
 import Roadmap from './components/Roadmap';
+import 'slick-carousel/slick/slick.css' 
+import 'slick-carousel/slick/slick-theme.css' 
 
 function App() {
   // preloader-start
