@@ -21,13 +21,16 @@ const TheKong = () => {
     setPlus(plus + 1)
   }
   function decrement() {
-    if (plus > 0) {
+    if (plus > -10) {
       setPlus(plus - 1)
     } else {
       setPlus(plus)
     }
   }
   if (plus === 10) {
+    document.getElementById("number").style.display = "none"
+  }
+  else if(plus === -1){
     document.getElementById("number").style.display = "none"
   }
    else if (plus === 9) {

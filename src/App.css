@@ -940,6 +940,12 @@
   .lh-25px {
     line-height: 20.6px;
   }
+
+  .Hero_bg {
+    background-image: url(./assets/img/png/Home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* preloader */
