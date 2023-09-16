@@ -8,6 +8,14 @@
   list-style-type: none;
 }
 
+.MY-container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
 @font-face {
   font-family: Azo Sans Uber;
   src: url(./assets/fonts/OnlineWebFonts_COM_657ffadaa4c0860145e513451dff4533/Azo\ Sans\ Uber\ W01\ Regular.otf);
@@ -132,7 +140,7 @@
 
 /* About-section */
 /* ========================= */
-.position-abs44{
+.position-abs44 {
   position: absolute;
   bottom: -58%;
   right: -2%;
@@ -142,11 +150,11 @@
   margin: 0 auto;
   padding-top: 50px;
   height: 250px;
-  max-width: 539px;
+  /* max-width: 539px; */
   background-color: transparent;
   box-sizing: border-box;
-  transform: rotate(10deg);
-  overflow-x: hidden;
+  transform: rotate(12deg);
+  overflow-x: hidden !important;
 }
 
 .entire-content {
@@ -159,7 +167,7 @@
 .content-carrousel {
   width: 100%;
   position: absolute;
-  float: right;
+  float: center;
   animation: rotar 15s infinite linear;
   transform-style: preserve-3d;
 }
@@ -269,6 +277,8 @@
 
 .Box_DDC {
   border-radius: 16px;
+  width: 369px;
+  height: 289px;
   border: 1px solid rgba(255, 255, 255, 0.20);
   background: rgba(255, 255, 255, 0.10);
   backdrop-filter: blur(15.5px);
@@ -933,6 +943,12 @@
 }
 
 @media (max-width: 992px) {
+
+  .width_50 {
+    width: 25%;
+  }
+
+
   .p-22 {
     padding: 12px;
   }
@@ -953,18 +969,19 @@
 .Animation {
   animation-name: preloader;
   animation-timing-function: linear;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-direction: alternate reverse;
+  animation-direction: alternate;
 }
+
 
 @keyframes preloader {
   0% {
-    transform: rotate(0deg);
+    transform: scale(1.5);
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: scale(1);
   }
 
 }
@@ -1011,9 +1028,6 @@
 }
 
 @media (max-width:556px) {
-  .width_50 {
-    width: 50%;
-  }
 
   :root {
     --fs-xl: 50px
@@ -1023,10 +1037,10 @@
     width: 100%;
   }
 
-  .position-abs44{
+  .position-abs44 {
     position: absolute;
     bottom: -42%;
     right: -2%;
   }
-  
+
 }

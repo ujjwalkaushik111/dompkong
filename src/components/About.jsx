@@ -12,13 +12,13 @@ import {Document, Deal , Contract} from './Icon'
 const About = () => {
   return (
    <section className='bg-black pb-5'>
-    <Container className=' pt-5'>
+    <div className='MY-container pt-5'>
         <Row className='align-items-center my-5 py-5'>
-            <Col lg={6} data-aos='fade-right'data-aos-duration='2000'>
+            <Col lg={5} data-aos='fade-right'data-aos-duration='2000'>
               <h2 className='text_ffffff ff_Azo_Sans_Uber fw-normal fs_xl'>About </h2>
-              <p className='text_ffffff fs_xsm fw-normal ff_montserrat'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
+              <p className='text_ffffff fs_xsm fw-normal ff_montserrat'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra  amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
             </Col>
-            <Col  lg={6} data-aos='fade-left position-relativ'data-aos-duration='2000'>
+            <Col  lg={7} data-aos='fade-left position-relative'data-aos-duration='2000'>
                 <div><img className='position-abs44 w-100' src={yellow_E} alt="#" /></div>
             <div id="slideshow" className='position-relative'>
                             <div class="entire-content">
@@ -39,8 +39,8 @@ const About = () => {
         </Row>
         <Row className='pb-5'>
             <h2 className='text-center text_ffffff ff_Azo_Sans_Uber fw-normal fs_xl py-5'data-aos='fade-down'data-aos-duration='2000'>Utilities</h2>
-            <Col lg={4} data-aos='fade-right'data-aos-duration='2000'>
-                <div className='Box_DDC p-3 mt-4 position-relative overflow-hidden'>
+            <Col xl={4} className='d-flex justify-content-center' data-aos='fade-right'data-aos-duration='2000'>
+                <div className='Box_DDC  p-3 mt-4 position-relative overflow-hidden'>
                         <div className='light-Moon'></div>
                         <div className='light-Moon-abs'></div>
                    <div className='d-flex justify-content-center'>
@@ -50,7 +50,7 @@ const About = () => {
                     <p className='p_ddc'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
                 </div>
             </Col>
-            <Col lg={4} data-aos='flip-right'data-aos-duration='3000'>
+            <Col xl={4} className='d-flex justify-content-center' data-aos='flip-right'data-aos-duration='3000'>
             <div className='Box_DDC p-3 mt-4 position-relative overflow-hidden'>
                         <div className='light-Moon'></div>
                         <div className='light-Moon-abs'></div>
@@ -62,7 +62,7 @@ const About = () => {
                     <p className='p_ddc'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
             </div>
             </Col>
-            <Col lg={4} data-aos='fade-left'data-aos-duration='2000'>
+            <Col xl={4} className='d-flex justify-content-center' data-aos='fade-left'data-aos-duration='2000'>
             <div className='Box_DDC p-3 mt-4 position-relative overflow-hidden'>
                         <div className='light-Moon'></div>
                         <div className='light-Moon-abs'></div>
@@ -74,7 +74,7 @@ const About = () => {
                 </div>
             </Col>
         </Row>
-    </Container>
+    </div>
    </section>
   )
 }

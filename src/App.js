@@ -33,7 +33,7 @@ function App() {
   //  preloader-end
 
   return (
-  <>
+  < div className='overflow-hidden'>
   {loading && <Preloader/>}
     <Navbar/>
     <About/>
@@ -42,7 +42,7 @@ function App() {
     <Partners/>
     <Faqs/>
     <Topbutton/>
-  </>
+  </div>
   );
 }
 

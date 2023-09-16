@@ -1,5 +1,6 @@
 import React from "react";
 import Img_P from "../assets/img/png/DompBottle.png";
+import Img_Pg from "../assets/img/png/Dompgillas.png";
 
 const Preloader = () => {
   return (
@@ -10,11 +11,12 @@ const Preloader = () => {
         >
           the kongs
         </h4>
-        <div>
-        <img width="100" className="Animation" src={Img_P} alt="#" />
-        <img width="100" className="Animation" src={Img_P} alt="#" />
-        <img width="100" className="Animation" src={Img_P} alt="#" />
-        <img width="100" className="Animation" src={Img_P} alt="#" />
+        <div className="d-flex justify-content-center">
+        <img width="50" className="Animation" src={Img_P} alt="#" />
+        <img width="50" className="Animation" src={Img_Pg} alt="#" />
+        <img width="50" className="Animation" src={Img_P} alt="#" />
+        <img width="50" className="Animation" src={Img_Pg} alt="#" />
+        <img width="50" className="Animation" src={Img_P} alt="#" />
       </div>
       </div>
      
