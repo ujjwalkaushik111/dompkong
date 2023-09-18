@@ -96,7 +96,7 @@
 }
 
 .Hero_bg {
-  background-image: url(./assets/img/png/Home_bg.png);
+  background-image: url(./assets/img/webp/Home_bg.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -121,7 +121,8 @@
 
 
 .BUTTON-Y:hover {
-  background-color: #FFF;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .abs-dompkong {
@@ -351,19 +352,34 @@
 
 /* THe kong */
 
+.abs-shadow2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.abs-shadowB {
+  position: absolute;
+  bottom: -1%;
+  left: 0%;
+}
+
 .yellow_box {
   border-radius: 4px;
-  max-width: 494px;
+  width: 494px;
   height: 61px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
   background: #FDDA60;
   box-shadow: 0px 4px 15px 0px rgba(253, 218, 96, 0.50);
+  transition: all 500ms linear;
 }
 
 .yellow_box:hover {
-  background: #ffffff;
+  background: #000000;
+  color: #ffffff;
   box-shadow: 0px 4px 15px 0px rgba(253, 218, 96, 0.50);
 }
 
@@ -385,9 +401,20 @@
   position: absolute;
   left: -21%;
   top: -38%;
+  z-index: 4;
+}
+
+.zindex {
+  z-index: 8;
 }
 
 /* FAQS */
+
+.abs-shadow {
+  position: absolute;
+  top: 0%;
+
+}
 
 .width-967 {
   width: 896px;
@@ -436,8 +463,8 @@
   --bs-accordion-inner-border-radius: 0px !important;
   --bs-accordion-btn-color: white !important;
   --bs-accordion-btn-bg: black !important;
-  --bs-accordion-btn-icon: url(./assets/img/png/vector_plus.png) !important;
-  --bs-accordion-btn-active-icon: url(./assets/img/png/Vector_subtract.png) !important;
+  --bs-accordion-btn-icon: url(./assets/img/webp/vector_plus.webp) !important;
+  --bs-accordion-btn-active-icon: url(./assets/img/webp/Vector_subtract.webp) !important;
   --bs-accordion-btn-focus-border-color: none !important;
   --bs-accordion-btn-focus-box-shadow: none !important;
 }
@@ -452,12 +479,32 @@
 }
 
 .FAQS_BG {
-  background-image: url(./assets/img/png/Group_Faqs.png);
+  background-image: url(./assets/img/webp/Group_Faqs.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 /* THE KONGS */
+
+.kong_ellipse {
+  width: 364px;
+  height: 364px;
+  border-radius: 364px;
+  background-color: #FDDA60;
+  filter: blur(179.5px);
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -55%);
+  z-index: -1;
+}
+
+.big_image {
+  width: 786px;
+  height: 679px;
+}
+
+/* MINT NFT */
 
 .button_sub {
   color: #000;
@@ -646,96 +693,6 @@
 }
 
 
-@media (min-width: 1400px) {
-  .rambo {
-    transform: translateX(30%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .albert {
-    transform: translateX(90%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .prince {
-    transform: translateX(30%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .heman {
-    transform: translateX(18%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .anonymous {
-    transform: translateX(-30%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .royals {
-    transform: translateX(-10%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .twopac {
-    transform: translateX(-90%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .elvis {
-    transform: translateX(-30%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .hugh {
-    transform: translateX(-10%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .hugh2 {
-    transform: translateX(18%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-}
-
 .transition-kong {
   transition: 300ms ease-in-out;
   width: 100%;
@@ -749,222 +706,11 @@
 }
 
 
-
-@media (max-width: 1400px) {
-  .width-xxl-80 {
-    transform: scale(0.8);
-  }
-
-  .ellipse-kong {
-    position: absolute;
-    left: -10%;
-    top: 0%;
-    z-index: 0;
-  }
-
-  .rambo {
-    transform: translateX(20%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .albert {
-    transform: translateX(60%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .prince {
-    transform: translateX(20%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .heman {
-    transform: translateX(18%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .anonymous {
-    transform: translateX(-20%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .royals {
-    transform: translateX(-10%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .twopac {
-    transform: translateX(-60%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .elvis {
-    transform: translateX(-20%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .hugh {
-    transform: translateX(-10%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-
-  .hugh2 {
-    transform: translateX(10%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-  }
-}
-
-@media (max-width: 1200px) {
-  .kingkong {
-    transform: translateY(-5%);
-  }
-
-  .width-xxl-80 {
-    transform: scale(0.8);
-  }
-
-  .ellipse-kong {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    z-index: 0;
-  }
-
-  .rambo {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .albert {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .prince {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .heman {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .anonymous {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .royals {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .twopac {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .elvis {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .hugh {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .hugh2 {
-    transform: translateX(0%);
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 12px;
-    padding-right: 12px;
-    z-index: 2;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-
-@media (max-width: 992px) {
-
-  .width_50 {
-    width: 25%;
-  }
-
-
-  .p-22 {
-    padding: 12px;
-  }
-
-  .lh-25px {
-    line-height: 20.6px;
-  }
-
-  .Hero_bg {
-    background-image: url(./assets/img/png/Home_bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
 /* preloader */
+
+.zindex-5 {
+  z-index: 40;
+}
 
 .Animation {
   animation-name: preloader;
@@ -986,7 +732,69 @@
 
 }
 
+
 @media (min-width:1200px) {
+
+  .LEFT_MONKEY1_abs {
+    position: absolute;
+    left: -2%;
+    top: 0;
+  }
+
+  .LEFT_MONKEY2_abs {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+  }
+
+  .LEFT_MONKEY3_abs {
+    position: absolute;
+    left: 13%;
+    top: 36%;
+  }
+
+  .LEFT_MONKEY4_abs {
+    position: absolute;
+    left: 5%;
+    top: 54%;
+  }
+
+  .LEFT_MONKEY5_abs {
+    position: absolute;
+    left: -2%;
+    top: 72%;
+  }
+
+  .RIGHT_MONKEY1_abs {
+    position: absolute;
+    right: -2%;
+    top: 0;
+  }
+
+  .RIGHT_MONKEY2_abs {
+    position: absolute;
+    right: 5%;
+    top: 18%;
+  }
+
+  .RIGHT_MONKEY3_abs {
+    position: absolute;
+    right: 13%;
+    top: 36%;
+  }
+
+  .RIGHT_MONKEY4_abs {
+    position: absolute;
+    right: 5%;
+    top: 54%;
+  }
+
+  .RIGHT_MONKEY5_abs {
+    position: absolute;
+    right: -2%;
+    top: 72%;
+  }
+
   .ABS_TOW {
     position: absolute;
     right: 27%;
@@ -1012,6 +820,8 @@
   }
 }
 
+
+
 @media (max-width:1200px) {
   .ABS_TOW {
     margin-right: -10%;
@@ -1025,9 +835,28 @@
   .ABS_HERO {
     margin-right: -10%;
   }
+
+  .Hero_bg {
+    background-size: cover;
+  }
 }
 
-@media (max-width:556px) {
+@media (max-width:992px) {
+
+  .width_50 {
+    width: 150px;
+  }
+  
+}
+
+@media (max-width:768px) {
+
+  .width_md_100 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width:545px) {
 
   :root {
     --fs-xl: 50px
@@ -1041,6 +870,10 @@
     position: absolute;
     bottom: -42%;
     right: -2%;
+  }
+
+  .margin-top {
+    margin-top: 53px;
   }
 
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import img1 from "../assets/img/png/NFTevening Logo.png";
-import img2 from "../assets/img/png/NFT_Calendar.png";
-import img3 from "../assets/img/png/Nebraska Furniture Mart Logo.png";
-import img4 from "../assets/img/png/Fannie Mae Logo.png";
-import line from "../assets/img/png/line_P.png";
-import img_part from "../assets/img/png/boy1.png";
-import img_part2 from "../assets/img/png/boy2.png";
-import img_part3 from "../assets/img/png/boy3.png";
+import img1 from "../assets/img/webp/NFTevening Logo.webp";
+import img2 from "../assets/img/webp/NFT_Calendar.webp";
+import img3 from "../assets/img/webp/Nebraska Furniture Mart Logo.webp";
+import img4 from "../assets/img/webp/Fannie Mae Logo.webp";
+import line from "../assets/img/webp/line_P.webp";
+import img_part from "../assets/img/webp/boy1.webp";
+import img_part2 from "../assets/img/webp/boy2.webp";
+import img_part3 from "../assets/img/webp/boy3.webp";
 import inst from "../assets/img/svg/bxl_instagram-alt.svg";
 import twitter from "../assets/img/svg/icons_twitter-fill.svg";
 import Slider from "react-slick";
@@ -87,7 +87,7 @@ const Partners = () => {
           </div>
           </Slider>
       </Container>
-      <Container className="mt-5 pt-5">
+      <Container className="mt-lg-5 pt-lg-5">
         <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-5 mt-4" data-aos='fade-down'data-aos-duration='3000'>Meet The Team</h2>
         <div className="line_Y"></div>
         <Row className="mb-5">

@@ -1,17 +1,20 @@
 import React from 'react'
 import { Accordion, Container } from 'react-bootstrap'
-import frame1 from '../assets/img/png/twitter-circle.png'
-import frame2 from '../assets/img/png/icons_opensea.png'
-import frame3 from '../assets/img/png/icons_Diamond.png'
-import frame4 from '../assets/img/png/icons_discord.png'
-import frame5 from '../assets/img/png/medium-circle.png'
-import frame6 from '../assets/img/png/icons_telegram.png'
+import frame1 from '../assets/img/webp/twitter-circle.webp'
+import frame2 from '../assets/img/webp/icons_opensea.webp'
+import frame3 from '../assets/img/webp/icons_Diamond.webp'
+import frame4 from '../assets/img/webp/icons_discord.webp'
+import frame5 from '../assets/img/webp/medium-circle.webp'
+import frame6 from '../assets/img/webp/icons_telegram.webp'
+import Shadow from '../assets/img/webp/shadow.webp'
 
 const Faqs = () => {
   return (
-    <section className='bg-black FAQS_BG'>
+    <section className='bg-black FAQS_BG position-relative'>
+        <img className='abs-shadow w-100' src={Shadow} alt="#" />
+
+        <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-lg-5" data-aos='zoom-in'data-aos-duration='3000' data-aos-delay='1000'>FAQS</h2>
         <Container>
-        <h2 className="text-center fw-normal fs_xl ff_Azo_Sans_Uber text_ffffff py-5" data-aos='zoom-in'data-aos-duration='3000' data-aos-delay='1000'>FAQS</h2>
         <div className='d-flex justify-content-center'>
                     <Accordion defaultActiveKey="0" className='width-967'>
                         <Accordion.Item eventKey="0" className='w-100 bg-transparent'>

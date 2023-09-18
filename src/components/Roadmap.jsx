@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Twopac from '../assets/img/png/Roadmap_img.png'
-import RM_LINE from '../assets/img/png/RM_LINE.png'
+import Twopac from '../assets/img/webp/Roadmap_img.webp'
+import RM_LINE from '../assets/img/webp/RM_LINE.webp'
 import { Roadmap1, Roadmap2, Roadmap3, Roadmap4, Roadmap5 } from './Icon'
 
 const Roadmap = () => {
@@ -20,7 +20,7 @@ const Roadmap = () => {
                     <a className='position-abs1 d-none d-xl-block' href="#"><Roadmap1/></a>
                     
                     <div className='ms-0 ms-xl-4 ps-0 ps-xl-3'><h2 className='Box_RM'data-aos='zoom-in'data-aos-duration='3000'data-aos-delay='2000'>20%</h2></div>
-                   <div className='ps-5'data-aos='fade-left'data-aos-duration='2000'data-aos-delay='2000'>
+                   <div className='ps-5'data-aos='fade-left'data-aos-duration='2000'data-aos-delay='1000'>
                     <h2 className='text_ffffff fw-normal ff_Azo_Sans_Uber fs_xmd'>Phase 1</h2>
                     <p className='text_ffffff fs_xsm fw-normal ff_montserrat'>Mi amet elementum, posuere tempus odio eu lacinia. Natoque arcu viverra ullamcorper condimentum massa laoree</p>
                     </div>

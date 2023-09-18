@@ -14,6 +14,7 @@ import Topbutton from './components/Topbutton';
 import Roadmap from './components/Roadmap';
 import 'slick-carousel/slick/slick.css' 
 import 'slick-carousel/slick/slick-theme.css' 
+import Kongs from './components/Kongs';
 
 function App() {
   // preloader-start
@@ -37,6 +38,7 @@ function App() {
   {loading && <Preloader/>}
     <Navbar/>
     <About/>
+    <Kongs/>
     <TheKong/>
     <Roadmap/>
     <Partners/>

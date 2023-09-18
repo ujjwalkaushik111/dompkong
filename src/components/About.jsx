@@ -1,10 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 // import About_img from "../assets/img/png/About_img.png"
-import car from "../assets/img/png/CARS.png"
-import watch from "../assets/img/png/WATCHES.png"
-import boat from "../assets/img/png/BOATS.png"
-import yellow_E from "../assets/img/png/Ellipse444.png"
+import car from "../assets/img/webp/CARS.webp"
+import watch from "../assets/img/webp/WATCHES.webp"
+import boat from "../assets/img/webp/BOATS.webp"
+import yellow_E from "../assets/img/webp/Ellipse444.webp"
 import {Document, Deal , Contract} from './Icon'
 
 
@@ -13,12 +13,12 @@ const About = () => {
   return (
    <section className='bg-black pb-5'>
     <div className='MY-container pt-5'>
-        <Row className='align-items-center my-5 py-5'>
+        <Row className='align-items-center my-5 py-lg-5 pt-0'>
             <Col lg={5} data-aos='fade-right'data-aos-duration='2000'>
               <h2 className='text_ffffff ff_Azo_Sans_Uber fw-normal fs_xl'>About </h2>
               <p className='text_ffffff fs_xsm fw-normal ff_montserrat'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra  amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
             </Col>
-            <Col  lg={7} data-aos='fade-left position-relative'data-aos-duration='2000'>
+            <Col  lg={7} className=' position-relative' data-aos='fade-left'data-aos-duration='2000'>
                 <div><img className='position-abs44 w-100' src={yellow_E} alt="#" /></div>
             <div id="slideshow" className='position-relative'>
                             <div class="entire-content">
@@ -37,7 +37,7 @@ const About = () => {
                         </div>
             </Col>
         </Row>
-        <Row className='pb-5'>
+        <Row className='pb-5 '>
             <h2 className='text-center text_ffffff ff_Azo_Sans_Uber fw-normal fs_xl py-5'data-aos='fade-down'data-aos-duration='2000'>Utilities</h2>
             <Col xl={4} className='d-flex justify-content-center' data-aos='fade-right'data-aos-duration='2000'>
                 <div className='Box_DDC  p-3 mt-4 position-relative overflow-hidden'>

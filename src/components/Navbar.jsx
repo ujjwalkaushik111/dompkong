@@ -1,14 +1,14 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import Twitter from '../assets/img/png/Yellow_twitter.png'
-import Ship from '../assets/img/png/ship_icon.png'
-import Diamond from '../assets/img/png/Diamond_icon.png'
-import Discord from '../assets/img/png/Discord.png'
-import Medium from '../assets/img/png/medium-circle2.png'
-import Telegram from '../assets/img/png/telegram2.png'
-import Two_pac from '../assets/img/png/Two_pac.png'
-import Chita from '../assets/img/png/Prince_chita.png'
-import Albert_hero from '../assets/img/png/Albert_hero.png'
+import Twitter from '../assets/img/webp/Yellow_twitter.webp'
+import Ship from '../assets/img/webp/ship_icon.webp'
+import Diamond from '../assets/img/webp/Diamond_icon.webp'
+import Discord from '../assets/img/webp/Discord.webp'
+import Medium from '../assets/img/webp/medium-circle2.webp'
+import Telegram from '../assets/img/webp/telegram2.webp'
+import Two_pac from '../assets/img/webp/Two_pac.webp'
+import Chita from '../assets/img/webp/Prince_chita.webp'
+import Albert_hero from '../assets/img/webp/Albert_hero.webp'
 
 
 const Navbar = () => {
