@@ -22,6 +22,7 @@ import Change_9 from '../assets/img/webp/Change9.webp'
 import Slider from 'react-slick'
 import $ from 'jquery'
 
+// Change-img-start 
 const Kongs = () => {
     $(function () {
         $("#big-image img:eq(0)").nextAll().hide();
@@ -30,6 +31,8 @@ const Kongs = () => {
           $("#big-image img").eq(index).show().siblings().hide();
         });
       });
+
+// Change-img-end
       var up_kong = {
         dots: false,
         arrows: false,
@@ -168,8 +171,7 @@ const Kongs = () => {
                 <img className='width_md_100 big-image' src={kong} alt="kong" />
                 <img className='width_md_100 big_image' src={Change_2} alt="kong" />
                 <img className='width_md_100 big_image' src={Change_3} alt="kong" />
-                <img className='width_md_100 big_image' src={Change_4} alt="kong" />
-                <img className='width_md_100 big_image' src={Change_5} alt="kong" />
+                <img className='width_md_100 big_image' src={Change_4} alt="kong" />                <img className='width_md_100 big_image' src={Change_5} alt="kong" />
                 <img className='width_md_100 big_image' src={Change_6} alt="kong" />
                 <img className='width_md_100 big_image' src={Change_7} alt="kong" />
                 <img className='width_md_100 big_image' src={Change_8} alt="kong" />

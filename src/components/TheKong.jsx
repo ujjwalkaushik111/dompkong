@@ -62,8 +62,8 @@ const TheKong = () => {
                   src={Bottle}
                   alt="#"
                   data-aos="fade-right"
-                  data-aos-duration="1000"
-                  data-aos-delay="2000"
+                  data-aos-duration="2000"
+                  data-aos-delay="1000"
                 />
 
                 <img
